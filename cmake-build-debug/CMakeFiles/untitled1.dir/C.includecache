@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamed/CLionProjects/Calcule parallele/main.c
+stdio.h
+-
+stdlib.h
+-
+sys/time.h
+-
+pthread.h
+-
+
